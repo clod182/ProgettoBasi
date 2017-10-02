@@ -1,0 +1,22 @@
+859326
+Manvkjomdfeg324!_
+
+ssh cmanesso@squit.dsi.unive.it
+Thei6wie
+
+psql --host dblab.dsi.unive.it --username a2016u68 a2016u68
+qwQGUY6h
+
+
+
+-----------------------------
+cd /wwwstud/cmanesso
+mkdir progettodb
+cd progettodb
+
+cat > index.php
+<html>
+Ciao xd, ho scoperto che 2+2 fa <?php echo 2+2; ?>
+</html>
+^D
+----------------------------
