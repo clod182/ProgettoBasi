@@ -1,0 +1,19 @@
+SITO PER LO SCAMBIO DI APPUNTI DI LEZIONI (1-2)
+
+Base di dati:
+
+Utenti registrati e corsi (con le informazioni relative), appunti (gli appunti si riferiscono ad una lezione di un corso in una certa data e sono rappresentati da un testo).
+
+Operazioni:
+
+Accesso senza login:
+
+Registrazione al sito
+
+Accesso con login:
+
+Inserimento dati di un corso.
+
+Inserimento appunti per una lezione di un corso.
+
+Visualizzazione elenco corsi, e dato un corso elenco lezioni e per ogni lezione elenco appunti. Si possono leggere gli appunti e scorrerli in ordine. Si possono fare ricerche per i dati di un appunto o anche per il testo.

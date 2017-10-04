@@ -18,9 +18,9 @@
 	$query = "SELECT * FROM lezioni WHERE idcor = $id_del_corso"; /*  WHERE idcor = ? */
 	$result = $dbconn->query($query);
 	//if ($result->num_rows > 0){
-	 echo "<table><tr><th>Lezioni</th><th></th></tr>";
+	 echo "<table><tr><th>ID</th><th>Lezioni</th><th></th></tr>";
      while($row = $result->fetch(PDO::FETCH_ASSOC)) {
-		echo "<tr><td>" . "<a href=\"Inserisci_appunti_lezione_final.php?idlezionee=$row[id_lez]\">$row[nome]</a>" . "</td> </tr>";
+		echo "<tr><td>" . $row['id_lez'] . "</td><td>" . "<a href=\"Inserisci_appunti_lezione_final.php?idlezionee=$row[id_lez]\">$row[nome]</a>" . "</td> </tr>";
 		}
 	  echo "</table>";
 	//}

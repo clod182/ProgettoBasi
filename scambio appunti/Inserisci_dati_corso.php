@@ -19,4 +19,3 @@
   <a href="home.php">Torna alla pagina principale senza inserire un corso</a>
 </body>
 </html>
-

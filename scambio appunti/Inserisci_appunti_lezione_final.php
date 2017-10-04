@@ -10,7 +10,13 @@
 <body>
   <h1>Inserisci appunto per una lezione di un corso.</h1>
   <p>Per inserire un nuovo corso dammi il nome e il suo docente!</p>
+  <?php
+  $id_lezionex = $_GET['idlezionee'];
+  echo "<h>lezione id = " . $id_lezionex . "</h>";
+  ?>
+
   <form action="Esegui_Inserisci_appunti_lezione.php" method="post">
+
    <table><tr><td>Titolo:</td><td><input type="text" name="box_titolo"></td></tr>
            <tr><td>Testo:</td><td><input type="text" name="box_testo"style="height:400px;width:800px;"></td></tr>
     </table>

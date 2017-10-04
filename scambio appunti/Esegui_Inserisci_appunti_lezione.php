@@ -14,9 +14,11 @@ if ((empty($_POST['box_titolo']))||(empty($_POST['box_testo']))) {
 } else {
 try {
   $dbconn = connessione();
-  $statement = $dbconn->prepare('select nuovo_corso(?, ?)');
-  $statement->execute(array($_POST['nome'],$_POST['docente']));
-  echo "Dati corso inseriti!";
+  //(titolo,testo, utente,idlez)
+  $id_lezione = $_GET['idlezionee'];
+  $statement = $dbconn->prepare('select nuovo_appunto(?, ?, ?, ?)');
+  $statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezione));
+  echo "Appunto lezione inserito con successo!";
 } catch (PDOException $e) { echo $e->getMessage(); }
 }
 ?>
