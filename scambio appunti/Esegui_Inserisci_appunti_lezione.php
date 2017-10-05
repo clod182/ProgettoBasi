@@ -17,9 +17,10 @@ try {
   //(titolo,testo, utente,idlez)
   $id_lezione = $_GET['idlezionee'];
   $statement = $dbconn->prepare('select nuovo_appunto(?, ?, ?, ?)');
-  $statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezione));
+  /*$statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezione));*/
+  $statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezionex));
   echo "Appunto lezione inserito con successo!";
-} catch (PDOException $e) { echo $e->getMessage(); }
+  } catch (PDOException $e) { echo $e->getMessage(); }
 }
 ?>
 </p>

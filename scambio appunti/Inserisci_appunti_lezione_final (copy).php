@@ -18,7 +18,9 @@
   <form action="Esegui_Inserisci_appunti_lezione.php" method="post">
 
    <table><tr><td>Titolo:</td><td><input type="text" name="box_titolo"></td></tr>
-          <tr><td>Testo:</td><td><textarea type="text" name="box_testo" rows="20" cols="80"></textarea></td></tr>
+           <tr><td>Testo:</td><td><input type="text" name="box_testo"style="height:400px;width:800px;"></td></tr>
+           <textarea name="testo" rows="5" cols="40">
+           </textarea>
     </table>
    <input type="submit" value="Inserisci">
   </form>

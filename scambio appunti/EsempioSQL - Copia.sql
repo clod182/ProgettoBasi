@@ -62,7 +62,7 @@ $$ language sql;
 /*prova inserimento lezioni
 select nuova_lezione (1,'laboratorio','2001-09-29 00:17:00' ,1);
 select nuova_lezione (18,'tutorato','2001-09-29 00:12:00' ,1);
-select nuova_lezione (2,'esercitazione','2001-09-29 00:00:00' ,3);
+select nuova_lezione (2,'esercitazione','2001-09-29 00:00:00' ,2);
 */
 create or replace function nuova_lezione(idd integer,n text,data timestamp,idc integer) returns void as $$
   insert into lezioni (id_lez, nome, dataa, idcor) values (idd, n, data, idc);
