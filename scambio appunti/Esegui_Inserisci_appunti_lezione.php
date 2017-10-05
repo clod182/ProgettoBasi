@@ -15,11 +15,11 @@ if ((empty($_POST['box_titolo']))||(empty($_POST['box_testo']))) {
 try {
   $dbconn = connessione();
   //(titolo,testo, utente,idlez)
-  $id_lezione = $_GET['idlezionee'];
+  //$id_lezione = $_GET['idlezionee'];
   $statement = $dbconn->prepare('select nuovo_appunto(?, ?, ?, ?)');
   echo $_POST['idlezione'];
   /*$statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezione));*/
-  $statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$id_lezionex));
+  $statement->execute(array($_POST['box_titolo'],$_POST['box_testo'],$_SESSION['nome_utente'],$_POST["idlezione_input"]));
   echo "Appunto lezione inserito con successo!";
   } catch (PDOException $e) { echo $e->getMessage(); }
 }
