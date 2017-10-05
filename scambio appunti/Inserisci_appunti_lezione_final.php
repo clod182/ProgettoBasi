@@ -16,7 +16,7 @@
   ?>
 
   <form action="Esegui_Inserisci_appunti_lezione.php" method="post">
-
+    <input type="hidden" name="idlezione" value="GET['idlezionee']"></input>
    <table><tr><td>Titolo:</td><td><input type="text" name="box_titolo"></td></tr>
           <tr><td>Testo:</td><td><textarea type="text" name="box_testo" rows="20" cols="80"></textarea></td></tr>
     </table>
