@@ -1,0 +1,40 @@
+*{
+    margin 0;
+    padding 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: url(https://bhubaneswarlive.com/wp-content/uploads/2016/11/Savin-NY-Website-Background-Web.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    /*color: #ffffff;*/
+    font: 900 45px 'Lobster', cursive;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.btn{
+    background: linear-gradient(to right, rgba(230,63,12,1) 0%, rgba(250,133,55,1) 48%, rgba(234,91,62,1) 100%);
+    border-radius: 4px;
+    padding: 10px 24px;
+    color: #ffffff;
+    font: 25 px 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    -webkit-transition: box-shadow Is ease;
+    transition: box-shadow Is ease;
+}
