@@ -14,7 +14,8 @@
   <ul>
     <li> <a href="Inserisci_dati_corso.php">Inserisci dati in un corso</a> </li>
     <li> <a href="Inserisci_appunti_lezione_lc.php">Inserisci appunti per una lezione di un corso</a> </li>
-    <li> <a href="elenco_corsi.php">Visualizza elenco corsi</a> </li>	
+    <li> <a href="elenco_corsi.php">Visualizza elenco corsi</a> </li>
+    <li> <a href="ricerca_appunti.php">Ricerca appunti</a> </li>
   </ul>
 </body>
 </html>
