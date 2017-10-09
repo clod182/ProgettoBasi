@@ -4,7 +4,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Scambio appunti :)</title>
       <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Open+Sans|Pacifico|Ribeye+Marrow|Varela|Forum" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Open+Sans|Pacifico|Ribeye+Marrow|Varela|Forum" rel="stylesheet">
       <!-- CSS-->
     <link href="style2.css" type="text/css" rel="stylesheet">
     </head>

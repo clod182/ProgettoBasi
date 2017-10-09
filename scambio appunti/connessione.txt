@@ -22,3 +22,4 @@ Ciao xd, ho scoperto che 2+2 fa <?php echo 2+2; ?>
 </html>
 ^D
 ----------------------------
+ //delete a file via ssh --> rm namefile.file
