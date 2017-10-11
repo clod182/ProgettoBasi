@@ -1,15 +1,18 @@
 <?php require "libreria.php";
-  controllo_accesso();?>
+  controllo_accesso();
+?>
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Inserisci corso/esito</title>
       <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Open+Sans|Pacifico|Ribeye+Marrow|Varela|Forum" rel="stylesheet">
-    <!-- CSS-->
-    <link href="style2.css" type="text/css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Open+Sans|Pacifico|Ribeye+Marrow|Varela|Forum" rel="stylesheet">
+      <!-- CSS-->
+      <link href="style2.css" type="text/css" rel="stylesheet">
     </head>
+
     <body>
         <div class="container">
           <p>
@@ -17,16 +20,17 @@
               if ((empty($_POST['nome']))||(empty($_POST['docente']))) {
                 echo '<h2>'. "Il campo nome e quello docente non possono essere vuoti".'</h2>';
               } else {
-                try {
-                  $dbconn = connessione();
-                  $statement = $dbconn->prepare('select nuovo_corso(?, ?)');
-                  $statement->execute(array($_POST['nome'],$_POST['docente']));
-                  echo '<h2>'."Dati corso inseriti con successo!".'</h2>';
+                  try {
+                    $dbconn = connessione();
+                    $statement = $dbconn->prepare('select nuovo_corso(?, ?)');
+                    $statement->execute(array($_POST['nome'],$_POST['docente']));
+                    echo '<h2>'."Dati corso inseriti con successo!".'</h2>';
                 } catch (PDOException $e) { echo $e->getMessage(); }
               }
               ?>
           </p>
-          <a href="home.php"><hend>Torna alla pagina principale senza inserire un corso</hend></a>
+          <p><a href="Inserisci_dati_corso.php"><hend>Inserisci nuovamente i dati per un corso</hend></a></p>
+          <p><a href="home.php"><hend>Torna alla pagina principale senza inserire un corso</hend></a></p>
         </div>
     </body>
 </html>

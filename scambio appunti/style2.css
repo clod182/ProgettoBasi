@@ -17,6 +17,16 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+.container2{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.containerCentral{
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
 h1{
     /*color: #ffffff;*/
     font: 900 45px 'Ribeye Marrow', cursive;

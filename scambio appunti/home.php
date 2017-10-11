@@ -1,8 +1,10 @@
 <?php
 require "libreria.php";
 controllo_accesso();?>
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
+
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Sito per lo scambio di appunti</title>
@@ -11,6 +13,7 @@ controllo_accesso();?>
     <!-- CSS-->
     <link href="style_home.css" type="text/css" rel="stylesheet">
   </head>
+  
   <body>
     <div class="container">
         <h1>---SCAMBIO APPUNTI---</h1>

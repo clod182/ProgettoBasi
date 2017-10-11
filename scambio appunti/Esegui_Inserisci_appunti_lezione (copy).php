@@ -1,6 +1,7 @@
 <?php require "libreria.php";
   controllo_accesso();
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
 
@@ -30,8 +31,10 @@
               }
           ?>
         </p>
+        
+        <p> <a href="Inserisci_appunti_lezione_final.php"><hend>Inserisci nuovamente i dati per un appunto.</hend></a> </p>
         <p> <a href="home.php"><hend>Torna alla pagina principale.</hend></a> </p>
       </div>
     </body>
-    
+
 </html>
