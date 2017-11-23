@@ -3,11 +3,12 @@
     padding 0;
 }
 html, body{
-    height: 100%;
+    margin:0;
+    padding:0;    
 }
 body{
-    background: url(https://bhubaneswarlive.com/wp-content/uploads/2016/11/Savin-NY-Website-Background-Web.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(https://bhubaneswarlive.com/wp-content/uploads/2016/11/Savin-NY-Website-Background-Web.jpg) no-repeat center center fixed;
+    background-size: cover;    
     display: flex;
     flex-direction: column;
     /*justify-content: center;*/

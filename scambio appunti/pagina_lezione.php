@@ -11,7 +11,7 @@
       <!-- Google Fonts-->
       <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Open+Sans|Pacifico|Ribeye+Marrow|Varela|Forum" rel="stylesheet">
       <!-- CSS-->
-      <link href="style_vis.css" type="text/css" rel="stylesheet">
+      <link href="style_pag.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
@@ -25,9 +25,9 @@
         $query = "SELECT * FROM appunti WHERE idlez = $id_lezione";
         $result = $dbconn->query($query);
         /*if ($result->num_rows > 0){*/
-        echo '<ht>'."<table border=1 frame=void><tr><th>id</th><th>titolo</th><th>testo</th><th>utente</th></tr>".'</ht>';
+        echo '<ht>'."<table border=1 frame=void><tr><th>id</th><th>data</th><th>titolo</th><th>testo</th><th>utente</th></tr>".'</ht>';
           while($row = $result->fetch(PDO::FETCH_ASSOC)) {
-            echo "<tr><td>" . $row['id_app'] . "</td><td>" . $row['titolo'] . "</td><td>" . $row['testo'] . "</td><td>" . $row['utente'] . "</td> </tr>";
+            echo "<tr><td>" . $row['id_app'] . "</td><td>" . $row['titolo'] . "</td><td>" . $row['data'] . "</td><td>" . $row['testo'] . "</td><td>" . $row['utente'] . "</td> </tr>";
           }
           echo "</table>";      
         /*} 
