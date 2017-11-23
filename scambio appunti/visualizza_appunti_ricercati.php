@@ -3,6 +3,7 @@
   controllo_accesso();?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
+
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Lista appunti ricercati</title>
@@ -11,6 +12,7 @@
       <!-- CSS-->
       <link href="style_vis.css" type="text/css" rel="stylesheet">
     </head>
+
     <body>
       <div class="container2">
         <h1>Lista appunti ricercati</h1>
@@ -32,4 +34,5 @@
       <p> <a href="home.php">Ritorna alla home page</a> </p>
       </div>
     </body>
+    
 </html>

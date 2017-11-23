@@ -1,8 +1,11 @@
 <?php
   require "libreria.php";
-  controllo_accesso();?>
+  controllo_accesso();
+?>
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
+
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Ricerca appunti</title>
@@ -11,6 +14,7 @@
       <!-- CSS-->
       <link href="style2.css" type="text/css" rel="stylesheet">
     </head>
+
     <body>
         <div class="container">
           <h1>Ricerca appunti</h1>
@@ -23,4 +27,5 @@
           <a href="home.php"><hend>Torna alla pagina principale senza ricercare</hend></a>
         </div>
     </body>
+    
 </html>

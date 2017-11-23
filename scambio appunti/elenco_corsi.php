@@ -3,6 +3,7 @@
   controllo_accesso();?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
+
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Lista dei corsi</title>
@@ -11,6 +12,7 @@
       <!-- CSS-->
       <link href="style_vis.css" type="text/css" rel="stylesheet">
     </head>
+
     <body>
       <div class="container">
         <h1>Elenco dei corsi</h1>
@@ -36,4 +38,5 @@
         <p> <a href="home.php"><hend>Ritorna alla home page</hend> </a> </p>
       </div>
     </body>
+    
 </html>

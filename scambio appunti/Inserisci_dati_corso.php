@@ -31,4 +31,5 @@
           <a href="home.php"><hend>Torna alla pagina principale senza inserire un corso</hend></a>
       </div>
   </body>
+  
 </html>
